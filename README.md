@@ -37,12 +37,12 @@ UTF-8形式のファイルに使用されている文字をリストアップす
 node findChar.js aaa.txt bbb.txt ccc.txt
 ```
 ### encode.js
-UTF-8形式のファイルを指定したコード表でエンコード
+UTF-8形式のファイルを指定したコード表でエンコード。ファイル名はencoded.txt
 ```
 node encode.js  aaa.txt code.json
 ```
 ### decode.js
-UTF-8形式のファイルを指定したコード表でデコード
+UTF-8形式のファイルを指定したコード表でデコード。ファイル名はdecoded.txt
 ```
 node decode.js  aaa.txt code.json
 ```
